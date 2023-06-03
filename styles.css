@@ -31,3 +31,22 @@ body {
 .header-gradient{
     background-image: linear-gradient(45deg,#0D1F2d, #9EA3B0);
 }
+
+.card-focus {
+    position: relative;
+    transition: inset 250ms ease;
+    top: 0;
+}
+
+.card-focus:hover {
+    top: -1rem;
+}
+
+
+@media (max-width: 678px) {
+    
+    .card-focus:hover {
+        /* Disable Card hover effect on mobile */
+        top: 0;
+    }
+}
