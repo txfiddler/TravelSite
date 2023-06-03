@@ -42,6 +42,15 @@ body {
     top: -1rem;
 }
 
+.review-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bi-star-fill, .bi-star-half {
+    color: goldenrod;
+}
 
 @media (max-width: 678px) {
     
