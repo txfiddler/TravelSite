@@ -29,7 +29,7 @@ body {
 }
 
 .header-gradient{
-    background-image: linear-gradient(45deg,#0D1F2d, #9EA3B0);
+    background-image: linear-gradient(45deg,#0D1F2d, #6577a3);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -53,6 +53,11 @@ body {
 
 .bi-star-fill, .bi-star-half {
     color: goldenrod;
+}
+
+.site-footer a {
+    color: #e4c3ad;
+    text-shadow: #0D1F2d;
 }
 
 @media (max-width: 678px) {
