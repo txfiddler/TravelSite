@@ -74,7 +74,7 @@ body {
 }
 
 .header-gradient{
-    background-image: linear-gradient(45deg,#0D1F2d, #9EA3B0);
+    background-image: linear-gradient(45deg,#0D1F2d, #6577a3);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -100,49 +100,10 @@ body {
     color: goldenrod;
 }
 
-.travel-news {
-    padding-inline: 1rem;
-    font-family: "Source Sans Pro", sans-serif;
-}
-.article-img {
-    max-height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.topic {
-    user-select: none;
-    padding-inline: 1rem;
-    padding-block: .33rem;
-    border-radius: 1rem;
-}
-
-.topic-primary {
-    background-color: rgb(137, 220, 255);
-    color: rgb(22, 22, 255);
-}
-
-.topic-visa {
-    background-color: rgb(79, 128, 128);
-    color: rgb(221, 255, 255);
-}
-
-.topic-sponsor {
-    background-color: rgb(219, 185, 99);
-    color: beige;
-}
 @media (max-width: 678px) {
     
     .card-focus:hover {
         /* Disable Card hover effect on mobile */
         top: 0;
-    }
-}
-
-@media (max-width: 992px) {
-    .navbar-brand {
-        margin: 0;
-        position: relative;
-        inset: 1;
     }
 }
