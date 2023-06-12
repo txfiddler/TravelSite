@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
+
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
@@ -21,36 +22,49 @@
 
 <body>
 
-    <header class="">
-        <h3 class="main-header header-gradient">Nucamp Travel Agency</h3>
-        <div class="bg-image hover-zoom">
-            <img src="img/nz1-crop.jpg" class="img-fluid w-100" />
-        </div>
-
+    <header class="site-header sticky-top shadow">
+        <nav class="site-nav navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" style="font-size: 1.6rem;" href="#">NuCamp Travel</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Destinations
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Brazil</a>
+                            <a class="dropdown-item" href="#">New Zealand</a>
+                            <a class="dropdown-item" href="#">Forest</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     </header>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top header-gradient">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>
-                            Home</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Destinations</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>
-                            Contact</a></li>
-                </ul>
-            </div>
+    <div class="hero d-flex hover-zoom">
+        <div class="container m-auto">
+            <h1 class="display-5">Adventure simplified.</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ducimus.</p>
+            <a href="" class="btn btn-primary">Book now</a>
+            <a href="#deals" class="btn btn-outline-info text-white">Explore deals</a>
         </div>
-    </nav>
+    </div>
 
     <div class="container">
 
@@ -119,8 +133,83 @@
         </div>
     </div>
 
+    <!-- TRAVEL NEWS -->
+    <section class="travel-news container py-5">
+
+        <h2 class="">Travel News</h2>
+        <p class="lead">Userful articles from around the web</p>
+
+        <div class="flex px-3 py-5">
+
+            <article class="row bg-light py-3 shadow rounded mb-3">
+                <div class="col-xs-12 col-md-7 d-flex flex-column ">
+                    <h3 class="text-dark">Top 10 Summer Vacation Destinations Around The World</h3>
+                    <div class="topics my-3 mb-3">
+                        <span class="topic topic-primary">General</span>
+                    </div>
+                    <p class="text-muted lead mt-4">Summer has finally arrived, but don’t worry if you want to travel
+                        and are
+                        having a hard time deciding which destination is right for you.</p>
+                    <a target="_blank"
+                        href="https://www.travelawaits.com/2887713/us-news-world-report-top-summer-destinations/">Read
+                        More
+                        <i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+                <picture class="col-xs-12 col-md-5">
+                    <img class="rounded img-fluid article-img"
+                        src="https://upload.travelawaits.com/ta/uploads/2023/06/bali-indonesia-pura-ulun-danu-bratan-800x800.jpg"
+                        alt="">
+                </picture>
+            </article>
+
+            <article class="row bg-light py-3 shadow rounded mb-3">
+                <div class="col-xs-12 col-md-7 d-flex flex-column ">
+                    <h3 class="text-dark">Brazil is Bringing Back Visa Requirements for American Travelers</h3>
+                    <div class="topics my-3 mb-3">
+                        <span class="topic topic-visa">Visas and Immigration</span>
+                    </div>
+                    <p class="text-muted lead mt-4">The Brazilian foreign ministry has announced it will resume entry
+                        visa
+                        requirements for visitors from the US, Japan, Australia, and Canada.</p>
+                    <a target="_blank"
+                        href="https://qz.com/brazil-passport-visa-tourism-us-japan-canada-australia-1850224963">Read
+                        More
+                        <i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+                <picture class="col-xs-12 col-md-5">
+                    <img class="rounded img-fluid article-img"
+                        src="https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_1315/9a20eb70888c429f799b90c4d6ec0e78.jpg"
+                        alt="">
+                </picture>
+            </article>
+
+            <article class="row bg-light py-3 shadow rounded mb-3">
+                <div class="col-xs-12 col-md-7 d-flex flex-column">
+                    <h3 class="text-dark">10 Best Mountains & Ski Resorts in Australia & New Zealand</h3>
+                    <div class="topics my-3 mb-3">
+                        <span class="topic topic-primary">General</span>
+                        <span class="topic topic-sponsor">Sponsored</span>
+                    </div>
+                    <p class="text-muted lead mt-4">These 10 high-end resorts in New Zealand put the magic and adventure
+                        of the North and South islands well within reach.</p>
+                    <a target="_blank"
+                        href="https://www.thetravel.com/high-end-affordable-new-zealand-resorts/#the-sails-nelson">Read
+                        More
+                        <i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+                <picture class="col col-md-5">
+                    <img class="rounded img-fluid article-img"
+                        src="https://images.unsplash.com/photo-1523049820105-c2e73204bac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                        alt="">
+                </picture>
+            </article>
+
+        </div>
+
+    </section>
+
     <!-- CUSTOMER REVIEWS -->
-    <section class="container py-5" style="font-family: system-ui;">
+    <section class="container py-5 px-3" id="reviews">
 
         <header class="mb-5">
             <h2>Client Reviews</h2>
@@ -159,7 +248,7 @@
                 <header class="row">
                     <div class="col-8 my-auto" role="group">
                         <p class="text-dark h5">Customer Name</p>
-                        <p class="text-muted">TEST</p>
+                        <p class="text-muted">Title goes here</p>
                     </div>
                     <div class="col-4">
                         <img class="rounded img-fluid review-img"
