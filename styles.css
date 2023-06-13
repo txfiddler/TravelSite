@@ -17,6 +17,8 @@ body {
     background-color: #546A7B;
     position: relative;
     font-family: "Source Sans Pro";
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -43,7 +45,12 @@ body {
     width: 100%;
 }
 
-
+@media (max-width: 960px) {
+    .navbar-brand {
+        position: static;
+        margin: 0;
+    }
+}
 .hero {
     font-family: "source sans pro", sans-serif;
     background-image: linear-gradient(rgba(0,0,10,0.5), rgba(0,10,20,0.7)), url("img/nz1-crop.jpg");
@@ -100,6 +107,32 @@ body {
     color: goldenrod;
 }
 
+.article-card {
+    font-family: "source sans pro", sans-serif;
+}
+
+.article-card img {
+    object-fit: cover;
+}
+
+.topic {
+    font-family: "source sans pro", sans-serif;
+    border-radius: 1rem;
+    padding: 4px 8px;
+}
+
+.topic-primary {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.topic-visa {
+    background-color: cadetblue;
+}
+
+.topic-sponsor {
+    background-color: rgb(194, 133, 0);
+}
 @media (max-width: 678px) {
     
     .card-focus:hover {
