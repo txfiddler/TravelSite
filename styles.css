@@ -158,3 +158,10 @@ body {
         top: 0;
     }
 }
+
+.greeceHero {
+    background-image: linear-gradient(rgba(0,0,10,0.5), rgba(0,10,20,0.7)), url("img/pics-travel-greece/pexels-demetra-ioannidou-15857208.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
