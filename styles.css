@@ -133,6 +133,24 @@ body {
 .topic-sponsor {
     background-color: rgb(194, 133, 0);
 }
+
+.polaroid {
+    padding: .8rem;
+    border-radius: 0;
+}
+
+.modal-header {
+    background-color: #546A7B;
+}
+
+.contact-form label{
+    color: #0D1F2d;
+}
+
+.message-box {
+    height: 200px;
+    overflow-y: scroll;
+}
 @media (max-width: 678px) {
     
     .card-focus:hover {

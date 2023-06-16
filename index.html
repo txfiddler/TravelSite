@@ -61,8 +61,49 @@
         <div class="container m-auto">
             <h1 class="display-5">Adventure simplified.</h1>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ducimus.</p>
-            <a href="" class="btn btn-primary">Book now</a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Contact us
+            </button>
             <a href="#deals" class="btn btn-outline-info text-white">Explore deals</a>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto py-3">
+                            <form class="text-dark w-100">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control form-control-lg" id="message"
+                                        placeholder="Type your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -76,21 +117,26 @@
             <div class="carousel-item active" data-interval="false">
                 <!-- This works now. I needed to resize all the images so their height is 600px -->
                 <!-- If I have time later, I want to add a background image of the full image, fit to the full width of the screen, then the thumb-size on top of it. -->
-                <img class=" d-flex m-auto" src="img\pics-travel-brazil-resized-1600_600\pexels-diego-rezende-3672776.jpg" class="d-block" alt="...">
+                <img class=" d-flex m-auto"
+                    src="img\pics-travel-brazil-resized-1600_600\pexels-diego-rezende-3672776.jpg" class="d-block"
+                    alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Rezende Waterfall, Brazil</h5>
                     <!-- <p>This beautiful, daunting waterfall in Pereira is one of Brazil's many natural wonders.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img class=" d-flex m-auto" src="img\pics-travel-brazil-resized-1600_600\pexels-athena-6580703.jpg" class="d-block w-100" alt="...">
+                <img class=" d-flex m-auto" src="img\pics-travel-brazil-resized-1600_600\pexels-athena-6580703.jpg"
+                    class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Athena, Rio de Janiero, Brazil</h5>
                     <!-- <p>Some representative placeholder content for the second slide.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img class=" d-flex m-auto" src="img\pics-travel-brazil-resized-1600_600\pexels-anderson-clayton-pereira-1068795.jpg" class="d-block w-100" alt="...">
+                <img class=" d-flex m-auto"
+                    src="img\pics-travel-brazil-resized-1600_600\pexels-anderson-clayton-pereira-1068795.jpg"
+                    class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Pereira Waterfall, Brazil</h5>
                     <!-- <p>Some representative placeholder content for the third slide.</p> -->
@@ -198,8 +244,7 @@
                 </div>
                 <picture class="col-xs-12 col-md-5">
                     <img class="rounded img-fluid article-img h-100"
-                        src="https://upload.travelawaits.com/ta/uploads/2023/06/champs-elysees-paris.jpg"
-                        alt="">
+                        src="https://upload.travelawaits.com/ta/uploads/2023/06/champs-elysees-paris.jpg" alt="">
                 </picture>
             </article>
 
