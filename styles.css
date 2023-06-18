@@ -103,7 +103,7 @@ body {
     object-fit: cover;
 }
 
-.bi-star-fill, .bi-star-half {
+.bi-star, .bi-star-fill, .bi-star-half {
     color: goldenrod;
 }
 
