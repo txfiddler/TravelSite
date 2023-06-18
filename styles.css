@@ -114,6 +114,7 @@ body {
 
 .card {
     flex:1;
+    border:0;
 }
 .review-img {
     width: 150px;
