@@ -23,6 +23,7 @@
 
 <body>
 
+    <!-- Header: Hero / Nav Section-->
     <header class="site-header sticky-top shadow">
         <nav class="site-nav navbar navbar-expand-lg navbar-dark container">
             <a class="navbar-brand" style="font-size: 1.6rem;" href="#">NuCamp Travel</a>
@@ -49,7 +50,7 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Brazil</a>
                             <a class="dropdown-item" href="#">New Zealand</a>
-                            <a class="dropdown-item" href="#">Forest</a>
+                            <a class="dropdown-item" href="greece.html">Greece</a>
                         </div>
                     </li>
                 </ul>
@@ -108,6 +109,7 @@
         </div>
     </div>
 
+    <!-- Carousel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -119,8 +121,7 @@
                 <!-- This works now. I needed to resize all the images so their height is 600px -->
                 <!-- If I have time later, I want to add a background image of the full image, fit to the full width of the screen, then the thumb-size on top of it. -->
                 <img class=" d-flex m-auto"
-                    src="img\pics-travel-brazil-resized-1600_600\pexels-diego-rezende-3672776.jpg" class="d-block"
-                    alt="...">
+                    src="img\pics-travel-brazil-resized-1600_600\pexels-diego-rezende-3672776.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Rezende Waterfall, Brazil</h5>
                     <!-- <p>This beautiful, daunting waterfall in Pereira is one of Brazil's many natural wonders.</p> -->
@@ -128,7 +129,7 @@
             </div>
             <div class="carousel-item">
                 <img class=" d-flex m-auto" src="img\pics-travel-brazil-resized-1600_600\pexels-athena-6580703.jpg"
-                    class="d-block w-100" alt="...">
+                    alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Athena, Rio de Janiero, Brazil</h5>
                     <!-- <p>Some representative placeholder content for the second slide.</p> -->
@@ -136,8 +137,7 @@
             </div>
             <div class="carousel-item">
                 <img class=" d-flex m-auto"
-                    src="img\pics-travel-brazil-resized-1600_600\pexels-anderson-clayton-pereira-1068795.jpg"
-                    class="d-block w-100" alt="...">
+                    src="img\pics-travel-brazil-resized-1600_600\pexels-anderson-clayton-pereira-1068795.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Pereira Waterfall, Brazil</h5>
                     <!-- <p>Some representative placeholder content for the third slide.</p> -->
@@ -154,10 +154,10 @@
         </button>
     </div>
 
-    <div class="container">
 
 
-
+    <!-- Discount Travel Section -->
+    <section>
         <div class="row row-content align-items-center" id="sale">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discount Vacations Packages!</h2>
@@ -166,7 +166,8 @@
                 <div class="media">
                     <img class="thumb-size d-flex mr-3 img-thumbnail" src="img/nz2_thumb.jpg" alt="The Shire" />
                     <div class="media-body align-self-center">
-                        <h3>Visit the Shire!<br><strong><span style ="color:rgb(255, 78, 3)">25% OFF NOW</span></strong><br></h3>
+                        <h3>Visit the Shire!<br><strong><span style="color:rgb(255, 78, 3)">25% OFF
+                                    NOW</span></strong><br></h3>
                         <p class="d-none d-sm-block">Re-live the Hobbit with a tour of the Shire!</p>
                     </div>
                 </div>
@@ -202,7 +203,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- TRAVEL NEWS -->
     <section class="travel-news container py-5">
@@ -255,7 +256,7 @@
 
             <article class="article-card row bg-light py-3 shadow rounded mb-3">
                 <div class="col-xs-12 col-md-7 d-flex flex-column">
-                    <h3 class="text-dark">10 Best Mountains & Ski Resorts in Australia & New Zealand</h3>
+                    <h3 class="text-dark">10 Best Mountains &amp; Ski Resorts in Australia &amp; New Zealand</h3>
                     <div class="topics my-3 mb-3">
                         <span class="topic topic-primary">General</span>
                         <span class="topic topic-sponsor">Sponsored</span>
@@ -399,10 +400,11 @@
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Destinations</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a class="text-white" href="index.html">Home</a></li>
+                        <li><a class="text-white" href="aboutus.html">About</a></li>
+                        <li><a class="text-white" href="#">Destinations</a></li>
+                        <li><a class="text-white" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">
@@ -417,10 +419,10 @@
                             class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i
-                            class="fa fa-phone fa-lg text-white"></i> 1-206-555-1234</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:nucamptravel@nucamp.co"><i
-                            class="fa fa-envelope-o fa-lg text-primary"></i> campsites@nucamp.co</a>
+                    <a role="button" class="btn btn-link text-white" href="tel:+12065551234"><i
+                            class="fa fa-phone fa-lg"></i> 1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link text-white" href="mailto:nucamptravel@nucamp.co"><i
+                            class="fa fa-envelope-o fa-lg"></i> campsites@nucamp.co</a>
                 </div>
             </div>
         </div>
