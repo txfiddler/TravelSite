@@ -54,7 +54,7 @@ body {
 .hero {
     font-family: "source sans pro", sans-serif;
     background-image: linear-gradient(rgba(0,0,10,0), rgba(0,10,20,0.2)), url("img/nz1-crop.jpg");
-    height: 50vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     text-shadow: 1px 2px black;
@@ -100,7 +100,7 @@ section {
     top: 0;
 }
 .carousel {
-    margin:2vh 5vw;
+    margin:3vh 5vw;
     box-shadow: 0 0 5px 0 black;
     background:rgba(0,0,0,.8);
 }
@@ -180,6 +180,13 @@ section {
 
 .greeceHero {
     background-image: linear-gradient(rgba(0,0,10,0.5), rgba(0,10,20,0.7)), url("img/pics-travel-greece/pexels-demetra-ioannidou-15857208.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nzHero {
+    background-image: linear-gradient(rgba(0,0,10,0), rgba(0,10,20,0.2)), url("img/pics-travel-new-zealand/nz9-crop.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
