@@ -76,10 +76,10 @@ body {
     max-width: 30%;
 }
 
-.row-content {
-    padding: 50px 0;
+
+
+section {
     border-bottom: 1px ridge;
-    min-height: 200px;
 }
 
 .site-footer{
